@@ -1,0 +1,26 @@
+product_id,product_name,category,subcategory,unit_cost,unit_price,supplier_id,lead_time_days,base_daily_demand
+P0001,Activewear Classic 1,Apparel,Activewear,14.74,29.05,SUP03,5,4.22
+P0002,Sandals Essential 2,Footwear,Sandals,67.45,151.11,SUP01,6,5.09
+P0003,Chargers Everyday 3,Electronics,Chargers,34.06,59.47,SUP02,11,1.35
+P0004,Decor Classic 4,Home Goods,Decor,5.55,13.01,SUP07,10,4.41
+P0005,Skincare Plus 5,Beauty,Skincare,39.42,82.09,SUP01,4,1.22
+P0006,Jeans Plus 6,Apparel,Jeans,40.33,83.82,SUP01,12,4.03
+P0007,Boots Essential 7,Footwear,Boots,46.94,82.84,SUP05,3,2.96
+P0008,Smart Home Pro 8,Electronics,Smart Home,35.64,86.39,SUP01,5,0.91
+P0009,Decor Pro 9,Home Goods,Decor,27.02,59.29,SUP02,9,4.83
+P0010,Fragrance Plus 10,Beauty,Fragrance,35.48,84.33,SUP03,5,0.72
+P0011,T-Shirts Classic 11,Apparel,T-Shirts,59.18,115.65,SUP06,4,3.31
+P0012,Sandals Classic 12,Footwear,Sandals,57.22,110.74,SUP02,7,2.23
+P0013,Smart Home Plus 13,Electronics,Smart Home,32.14,48.38,SUP03,4,5.79
+P0014,Bedding Everyday 14,Home Goods,Bedding,57.48,98.81,SUP07,14,4.81
+P0015,Skincare Plus 15,Beauty,Skincare,38.7,66.82,SUP01,4,5.47
+P0016,T-Shirts Essential 16,Apparel,T-Shirts,20.18,35.66,SUP07,9,1.55
+P0017,Boots Everyday 17,Footwear,Boots,61.89,140.08,SUP06,8,3.99
+P0018,Headphones Essential 18,Electronics,Headphones,53.74,80.68,SUP07,7,0.82
+P0019,Cookware Essential 19,Home Goods,Cookware,29.74,46.79,SUP06,4,3.77
+P0020,Fragrance Classic 20,Beauty,Fragrance,74.38,156.0,SUP04,7,3.79
+P0021,Jeans Classic 21,Apparel,Jeans,76.89,152.15,SUP04,12,1.05
+P0022,Sneakers Essential 22,Footwear,Sneakers,41.8,105.56,SUP02,9,3.16
+P0023,Smart Home Pro 23,Electronics,Smart Home,29.87,60.48,SUP07,8,0.72
+P0024,Bedding Everyday 24,Home Goods,Bedding,72.21,113.25,SUP03,9,1.19
+P0025,Haircare Plus 25,Beauty,Haircare,26.09,57.17,SUP06,11,4.75
