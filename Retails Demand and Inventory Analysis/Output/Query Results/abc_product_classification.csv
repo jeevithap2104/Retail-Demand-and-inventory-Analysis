@@ -1,0 +1,26 @@
+product_id,product_name,total_revenue,cumulative_revenue_pct,abc_class
+P0002,Sandals Essential 2,3865399.89,12.4,A
+P0020,Fragrance Classic 20,2963541.36,21.91,A
+P0017,Boots Everyday 17,2778388.71,30.83,A
+P0014,Bedding Everyday 14,2257789.76,38.07,A
+P0011,T-Shirts Classic 11,1931586.36,44.27,A
+P0015,Skincare Plus 15,1854297.79,50.22,A
+P0022,Sneakers Essential 22,1643293.69,55.5,A
+P0006,Jeans Plus 6,1637000.41,60.75,A
+P0013,Smart Home Plus 13,1421265.1,65.31,A
+P0009,Decor Pro 9,1410243.48,69.83,A
+P0025,Haircare Plus 25,1322427.34,74.08,A
+P0007,Boots Essential 7,1246020.49,78.08,A
+P0012,Sandals Classic 12,1237826.22,82.05,B
+P0019,Cookware Essential 19,884108.76,84.88,B
+P0021,Jeans Classic 21,767138.81,87.35,B
+P0024,Bedding Everyday 24,646268.03,89.42,B
+P0001,Activewear Classic 1,619800.35,91.41,B
+P0005,Skincare Plus 5,503059.82,93.02,B
+P0003,Chargers Everyday 3,390672.74,94.28,B
+P0008,Smart Home Pro 8,385428.98,95.51,C
+P0018,Headphones Essential 18,331060.69,96.58,C
+P0010,Fragrance Plus 10,300130.4,97.54,C
+P0004,Decor Classic 4,283728.86,98.45,C
+P0016,T-Shirts Essential 16,271618.87,99.32,C
+P0023,Smart Home Pro 23,211509.43,100.0,C

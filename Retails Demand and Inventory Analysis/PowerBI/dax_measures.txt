@@ -1,0 +1,97 @@
+DAX MEASURES — Retail Inventory & Demand Analysis
+Create these in a dedicated "_Measures" table in Power BI.
+
+------------------------------------------------------------------
+Sales measures
+------------------------------------------------------------------
+
+Total Revenue =
+SUM ( fact_sales[revenue] )
+
+Total Units Sold =
+SUM ( fact_sales[quantity] )
+
+Avg Order Value =
+DIVIDE ( [Total Revenue], DISTINCTCOUNT ( fact_sales[sale_id] ) )
+
+Total COGS =
+SUMX (
+    fact_sales,
+    fact_sales[quantity] * RELATED ( dim_product[unit_cost] )
+)
+
+Gross Margin =
+[Total Revenue] - [Total COGS]
+
+Gross Margin % =
+DIVIDE ( [Gross Margin], [Total Revenue] )
+
+------------------------------------------------------------------
+Time intelligence (requires dim_date marked as a Date table)
+------------------------------------------------------------------
+
+Revenue Prior Month =
+CALCULATE ( [Total Revenue], DATEADD ( dim_date[date], -1, MONTH ) )
+
+Revenue MoM % =
+DIVIDE ( [Total Revenue] - [Revenue Prior Month], [Revenue Prior Month] )
+
+Revenue Prior Year =
+CALCULATE ( [Total Revenue], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+
+Revenue YoY % =
+DIVIDE ( [Total Revenue] - [Revenue Prior Year], [Revenue Prior Year] )
+
+Running Total Revenue =
+CALCULATE (
+    [Total Revenue],
+    FILTER (
+        ALLSELECTED ( dim_date[date] ),
+        dim_date[date] <= MAX ( dim_date[date] )
+    )
+)
+
+------------------------------------------------------------------
+Inventory measures
+------------------------------------------------------------------
+
+Avg Closing Stock =
+AVERAGE ( fact_inventory[closing_stock] )
+
+Stockout Days =
+CALCULATE (
+    COUNTROWS ( fact_inventory ),
+    fact_inventory[stockout_flag] = 1
+)
+
+Total Tracked Days =
+COUNTROWS ( fact_inventory )
+
+Stockout Rate % =
+DIVIDE ( [Stockout Days], [Total Tracked Days] )
+
+Avg Inventory Value =
+AVERAGEX (
+    fact_inventory,
+    fact_inventory[closing_stock] * RELATED ( dim_product[unit_cost] )
+)
+
+Inventory Turnover Ratio =
+DIVIDE ( [Total COGS], [Avg Inventory Value] )
+
+Days of Supply =
+DIVIDE (
+    [Avg Closing Stock],
+    DIVIDE ( [Total Units Sold], DISTINCTCOUNT ( fact_sales[date_key] ) )
+)
+
+Below Reorder Point (flag) =
+IF (
+    SELECTEDVALUE ( fact_inventory[closing_stock] )
+        <= SELECTEDVALUE ( fact_inventory[reorder_point] ),
+    "Reorder Now",
+    "OK"
+)
+
+Sell-Through Rate % =
+DIVIDE ( [Total Units Sold], [Total Units Sold] + [Avg Closing Stock] )

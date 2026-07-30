@@ -1,0 +1,26 @@
+product_id,product_name,category,days_tracked,stockout_days,stockout_rate_pct
+P0014,Bedding Everyday 14,Home Goods,3650,192,5.26
+P0003,Chargers Everyday 3,Electronics,3650,162,4.44
+P0006,Jeans Plus 6,Apparel,3650,162,4.44
+P0021,Jeans Classic 21,Apparel,3650,160,4.38
+P0004,Decor Classic 4,Home Goods,3650,134,3.67
+P0025,Haircare Plus 25,Beauty,3650,125,3.42
+P0024,Bedding Everyday 24,Home Goods,3650,109,2.99
+P0022,Sneakers Essential 22,Footwear,3650,106,2.9
+P0016,T-Shirts Essential 16,Apparel,3650,97,2.66
+P0009,Decor Pro 9,Home Goods,3650,93,2.55
+P0023,Smart Home Pro 23,Electronics,3650,88,2.41
+P0018,Headphones Essential 18,Electronics,3650,76,2.08
+P0017,Boots Everyday 17,Footwear,3650,73,2.0
+P0020,Fragrance Classic 20,Beauty,3650,56,1.53
+P0012,Sandals Classic 12,Footwear,3650,53,1.45
+P0002,Sandals Essential 2,Footwear,3650,51,1.4
+P0010,Fragrance Plus 10,Beauty,3650,50,1.37
+P0008,Smart Home Pro 8,Electronics,3650,36,0.99
+P0001,Activewear Classic 1,Apparel,3650,27,0.74
+P0005,Skincare Plus 5,Beauty,3650,25,0.68
+P0019,Cookware Essential 19,Home Goods,3650,20,0.55
+P0015,Skincare Plus 15,Beauty,3650,14,0.38
+P0011,T-Shirts Classic 11,Apparel,3650,13,0.36
+P0007,Boots Essential 7,Footwear,3650,11,0.3
+P0013,Smart Home Plus 13,Electronics,3650,9,0.25

@@ -1,0 +1,11 @@
+product_id,product_name,category,total_revenue,units_sold,revenue_rank
+P0002,Sandals Essential 2,Footwear,3865399.89,25905,1
+P0020,Fragrance Classic 20,Beauty,2963541.36,19232,2
+P0017,Boots Everyday 17,Footwear,2778388.71,20081,3
+P0014,Bedding Everyday 14,Home Goods,2257789.76,23159,4
+P0011,T-Shirts Classic 11,Apparel,1931586.36,16919,5
+P0015,Skincare Plus 15,Beauty,1854297.79,28125,6
+P0022,Sneakers Essential 22,Footwear,1643293.69,15779,7
+P0006,Jeans Plus 6,Apparel,1637000.41,19791,8
+P0013,Smart Home Plus 13,Electronics,1421265.1,29756,9
+P0009,Decor Pro 9,Home Goods,1410243.48,24099,10

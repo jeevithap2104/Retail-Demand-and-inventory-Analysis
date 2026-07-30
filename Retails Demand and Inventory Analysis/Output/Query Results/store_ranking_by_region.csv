@@ -1,0 +1,11 @@
+region,store_id,store_name,total_revenue,rank_in_region
+Midwest,S004,Store 004 - Midwest,3772845.91,1
+Northeast,S001,Store 001 - Northeast,3438393.41,1
+South,S009,Store 009 - South,4195740.97,1
+South,S006,Store 006 - South,3640912.04,2
+South,S007,Store 007 - South,3635514.24,3
+South,S010,Store 010 - South,2820709.34,4
+South,S003,Store 003 - South,2604734.31,5
+South,S005,Store 005 - South,1754278.66,6
+West,S002,Store 002 - West,3613878.83,1
+West,S008,Store 008 - West,1686598.63,2
